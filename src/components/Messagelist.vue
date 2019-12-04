@@ -27,6 +27,7 @@ export default {
     computed: {
         ...mapState([
             'messages',
+            'userTyping'
         ])
     }
 }
