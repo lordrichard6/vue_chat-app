@@ -67,7 +67,7 @@ async function sendMessage(text) {
 }
 
 export function isTyping(roomId) {
-    currentUser.isTyping({ roomId });
+    currentUser.isTypingIn({ roomId });
 }
 
 function disconnectUser() {
